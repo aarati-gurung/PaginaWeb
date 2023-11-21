@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/black-background-with-leaves-vegetation-texture_23-2149872512.jpg?w=740&t=st=1700601088~exp=1700601688~hmac=f172435030e6ea95b6ac835560316d45b222e012e9c313cdc03b78695f1aeae5);
+    background-size: cover;
+}
+.uno{
+    display: flex;
+    justify-content: row;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+.music{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:end;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(179, 179, 179);
+}
+.login:hover{
+    color: white;
+    background-color: rgb(145, 119, 119);
+    border-radius: 5px;
+}
+.link:hover{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.line{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 35vh;
+    width: 40vw;
+    position: fixed;
+    background-color: rgb(79, 78, 79);
+    margin-top: 15%;
+    margin-left: 30%;
+    box-shadow: 10px 11px 9px 1px rgb(53, 49, 50);
+}
+.log1{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30vw;
+    background-color: rgb(112, 112, 255);
+}
+.log1:hover{
+    background-color: rgb(17, 17, 119) ;
+}
+.log2{
+    text-decoration: none;
+    color: white;
+}
+#user{
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid grey;
+}

@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(136, 129, 129);
+}
+.inicio{
+    background-color: rgb(50, 47, 47);
+    color:aliceblue;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.inicio1:hover{
+    color: rgb(176, 94, 94);
+}
+.uno{
+    display: flex;
+    justify-content: row;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+.music{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.name{
+    color: grey;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:end;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(179, 179, 179);
+}
+.login:hover{
+    color: white;
+    background-color: rgb(145, 119, 119);
+    border-radius: 5px;
+}
+.link:hover{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.line{
+    text-align: center;
+}
+.img1{
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+}
+.img2{
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+}
+.img3{
+    width: 200px;
+    border-radius: 20px;
+}
+.img4{
+    width: 200px;
+    border-radius: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+.col1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one{
+    flex-direction: column;
+    text-align: center;
+}
+.dos{
+    flex-direction: column;
+    text-align: center;
+}
+.tres{
+    flex-direction: column;
+    text-align: center;
+}
+.cuatro{
+    flex-direction: column;
+    text-align: center;
+}
+.one2{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(168, 243, 168);
+    box-shadow: 10px 11px 9px 1px rgb(68, 98, 68);
+}
+.dos2{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(127, 127, 225);
+    box-shadow: 10px 11px 9px 1px rgb(59, 59, 85);
+}
+.tres2{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(90, 90, 90);
+    box-shadow: 10px 11px 9px 1px rgb(56, 56, 56);
+}
+.cuatro2{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(255, 183, 183);
+    box-shadow: 10px 11px 9px 1px rgb(98, 73, 73);
+}

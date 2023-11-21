@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/jcuarto.css">
+    <div class="uno">
+        <div class="music"><h3>MUSIC</h3></div>
+        <div class="links">
+            <a href="index.html" class="link">Home</a>
+            <a href="segundo.html" class="link">Second</a>
+            <a href="tercero.html" class="link">Apps</a>
+            <a href="jcuarto.html" class="link">Perferences</a>
+            <a href="login.html" class="login">Log in</a>
+        </div>
+    </div>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <h3>Music Preferences</h3>
+            <form id="musicPreferencesForm" class="genres">
+            <label for="rock">
+                <input type="checkbox" id="rock" name="genre" value="rock">
+                Rock
+            </label>
+            <label for="pop">
+                <input type="checkbox" id="pop" name="genre" value="pop">
+                Pop
+            </label>
+            <label for="hipHop">
+                <input type="checkbox" id="hipHop" name="genre" value="hip-hop">
+                Hip Hop
+            </label>
+            <label for="electronic">
+                <input type="checkbox" id="electronic" name="genre" value="electronic">
+                Electronic
+            </label>
+            <label for="classical">
+                <input type="checkbox" id="classical" name="genre" value="classical">
+                Classical
+            </label>
+            <label for="K-pop">
+                <input type="checkbox" id="k-pop" name="genre" value="k-pop">
+                K-Pop
+            </label>
+            <label for="jazz">
+                <input type="checkbox" id="jaz" name="genre" value="jazz">
+                Jazz
+            </label>
+            </form>
+        </div>
+        <div class="two">
+            <h3>What is your favorite Music?</h3>
+            <form id="favMusicForm" class="favs">
+                <input type="text" id="fav" name="fav">
+            </form>
+        </div>
+        <div class="three">
+            <h3>Which web or app do u use to listen?</h3>
+            <div class="all">
+                <div class="col1">
+                    <form id="whichAPP" class="apps">
+                        <label for="spotify">
+                            <input type="checkbox" id="spotify" name="app" value="spotify">
+                            Spotify
+                        </label>
+                        <label for="AM">
+                            <input type="checkbox" id="AM" name="app" value="AM">
+                            Amazon Music
+                        </label>
+                        <label for="utube">
+                            <input type="checkbox" id="utube" name="app" value="utube">
+                            Youtube Music 
+                        </label>
+                    </form>
+                </div>
+                <div class="col2">
+                    <form id="whichAPP" class="apps">
+                        <label for="deezer">
+                            <input type="checkbox" id="deezer" name="app" value="deezer">
+                            Deezer
+                        </label>
+                        <label for="SoundCloud">
+                            <input type="checkbox" id="SoundCloud" name="app" value="SoundCloud">
+                            SoundCloud
+                        </label>
+                        <label for="others">
+                            <input type="checkbox" id="other" name="app" value="other">
+                            Other App/web 
+                        </label>
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <input type="submit" value="Submit">
+      </div>
+</body>
+</html>
